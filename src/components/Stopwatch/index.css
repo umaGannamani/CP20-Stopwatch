@@ -1,0 +1,117 @@
+/* Write CSS here */
+.app-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+}
+.stop-watch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.stopwatch-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 10px 10px8px 10px #888888;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.stopwatch-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.clock-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.timer-heading {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #333333;
+  padding-bottom: 0px;
+}
+.time-display {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #333333;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button {
+  width: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 14px;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+.start-button {
+  background-color: #1db05f;
+}
+.stop-button {
+  background-color: #ef0d36;
+}
+.restart-button {
+  background-color: #eaa800;
+}
+@media (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+  }
+  .stop-watch-container {
+    align-items: center;
+    margin-left: 165px;
+    text-align: center;
+  }
+  .heading {
+    font-size: 32px;
+    text-align: center;
+  }
+  .clock-image {
+    width: 35px;
+    height: 35px;
+  }
+  .timer-heading {
+    font-size: 25px;
+  }
+  .time-display {
+    font-size: 32px;
+  }
+  .button {
+    width: 80px;
+    margin-right: 5px;
+  }
+}
